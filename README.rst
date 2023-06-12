@@ -8,6 +8,12 @@ Index
 .. contents:: Table of Contents
 
 
+Best Practices
+================
+
+for best practices see the `Organisation readme <https://github.com/Future-Coasts-Numerical-Experiments>`_
+
+
 Children Pages
 ===============
 
