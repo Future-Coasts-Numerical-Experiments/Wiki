@@ -1,6 +1,13 @@
-.. role:: small
+How To use ReStructured Text (rst)
 
-..contents:: Table of Contents
+Index
+-------
+
+.. contents:: Table of Contents
+
+
+To make Table of Contents
+---------------------------
 
 ::
 
@@ -244,7 +251,8 @@ Comments
 
 +---------------------------------------------------------------+-------------------------------------------------------------+
 |                                                                                                                             |
-| Any text which begins with an explicit markup (They all begin with two periods and whitespace, the "explicit markup start") |
+|  Any text which begins with an explicit markup                                                                              |
+|  (They all begin with two periods and whitespace, the "explicit markup start")                                              |
 |  start but doesn't use the syntax of any of the constructs above, is a comment.                                             |
 |                                                                                                                             |
 +---------------------------------------------------------------+-------------------------------------------------------------+
@@ -272,6 +280,7 @@ Figures
 ---------
 
 To upload a Figure, first upload the image to the figures folder. Then use the following syntax:
+
 +---------------------------------------------------------------+-------------------------------------------------------------+
 | ::                                                            |                                                             |
 |                                                               |                                                             |
