@@ -9,6 +9,8 @@ Index
 To make Table of Contents
 ---------------------------
 
+once a table of contents is made clicking on any of the titles take you to the table of contents
+
 ::
 
     .. contents:: Table of Contents
@@ -286,13 +288,13 @@ To upload a Figure, first upload the image to the figures folder. Then use the f
 |                                                               |                                                             |
 |   For instance:                                               |   For instance:                                             |
 |                                                               |                                                             |
-| .. figure:: figures/example_sub_folder/example_fig.png        |   .. figure:: figures/example_sub_folder/example_fig.png    |
-|    :height: 650 px                                            |       :height: 650 px                                       |
-|    :align: center                                             |       :align: center                                        |
+|   .. figure:: figures/example_sub_folder/example_fig.png      |   .. figure:: figures/example_sub_folder/example_fig.png    |
+|        :height: 650 px                                        |       :height: 650 px                                       |
+|        :align: center                                         |       :align: center                                        |
 |                                                               |                                                             |
-| .. class:: centered                                           |   .. class:: centered                                       |
+|   .. class:: centered                                         |   .. class:: centered                                       |
 |                                                               |                                                             |
-|     *Figure: example figure*                                  |       *Figure: example figure*                              |
+|        *Figure: example figure*                               |       *Figure: example figure*                              |
 |                                                               |                                                             |
 |                                                               |                                                             |
 |                                                               |                                                             |
