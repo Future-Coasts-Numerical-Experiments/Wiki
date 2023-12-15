@@ -34,6 +34,15 @@ Drainage density experiments
 :overview: what density of drainage is needed to mitigate sea level rise / groundwater flooding?
 
 
+Dataset format template
+----------------------------
+
+:link: https://github.com/Future-Coasts-Numerical-Experiments/Wiki/blob/main/data_format_template.py
+:page god: Matt Dumont (matt@komanawa.com)
+:overview: A template for how to format your datasets for the numerical experiments and general groundwater data.
+
+A discussion document on the format is available at: https://docs.google.com/document/d/1oikl6dredSMb0fP79RL5uSjbVSHsV5N6uobl0H-5jtA/edit?usp=sharing
+
 Existing Repositories
 =====================
 
