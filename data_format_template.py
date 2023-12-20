@@ -171,16 +171,21 @@ def check_netCDF_format(nc_file, log_path=None, raise_error=True):
 def make_example_file():
     temp_path = Path.home().joinpath('Downloads', 'ex_fut.nc')
     x = np.arange(0, 100, 10)
-    y = np.arange(200, 400, 10)
-    depth = np.arange(0, 10, 1)
-    slr = np.arange(0, 10, 1)
-    real = np.arange(0, 10, 1)
+    y = np.arange(200, 450, 10)
+    depth = np.arange(0, 11, 1)
+    slr = np.arange(0, 5, 1)
+    real = np.arange(0, 7, 1)
     nc_file = initialize_dataformat(temp_path, x, y,
                                     description='test file',
                                     author='matt dumont',
                                     script=__file__,
                                     version='v0.1', depth=depth, slr_increment=slr,
                                     real=real)
+    nc_file.createVariable('dummy', 'f8', ('nztmy', 'nztmx', 'depth', 'slr_increment', 'real'))
+    nc_file.variables['dummy'].setncatts({'units': 'm',
+                                          'long_name': 'dummy variable',
+                                          'missing_value': np.nan})
+    nc_file.variables['dummy'][:] = np.random.rand(len(y), len(x), len(depth), len(slr), len(real))
     nc_file.close()
     check_netCDF_format(temp_path, raise_error=True)
 
